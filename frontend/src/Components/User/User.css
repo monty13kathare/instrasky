@@ -1,0 +1,105 @@
+
+
+/*User CSS  */
+
+.homeUser{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.507);
+    transition: all 0.5s;
+}
+.homeUser .Name{
+    font-weight: 400;
+    font-size: 17px;
+}
+.homeUser > img {
+    height: 3vmax;
+    width: 3vmax;
+    margin: 1vmax;
+    border-radius: 50%;
+    border: 2px solid rgb(33, 116, 205);
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.UserPopup{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    }
+    
+    .UserPopup button{
+        font-size: 1vmax;
+        font-weight: 400;
+        padding: 0.1vmax 0.6vmax;
+        border: 0.1vmax solid gray;
+        width: 6vmax;
+        height: 2vmax;
+        background-color: rgb(15, 133, 202);
+        color: #fff;
+        border-radius: 0.3vmax;
+        transition: all 0.3s;
+    }
+    .userNem{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .userNem h3{
+        font-size: 1.2vmax;
+        font-weight: 400;
+        color: black;
+    }
+    .userNem .nameId{
+        margin-top: 2px;
+        color:gray;
+       
+    }
+    
+    .followBtn:hover{
+        background-color: rgb(15, 133, 202);
+    }
+    
+    
+    
+    @media screen and (max-width: 600px) {
+        .UserPopup button{
+            font-size: 1.5vmax;
+            padding: 0vmax 0.3vmax;
+            border: 0.1vmax solid gray;
+            width: 7vmax;
+            height: 2.5vmax;
+            border-radius: 0.3vmax;
+            position: relative;
+           
+        }
+        .UserPopup .homeUser img{
+            width: 5vmax;
+            height: 5vmax;
+        }
+        .userNem h3{
+            font-size: 2vmax;
+            font-weight: 400;
+            color: black;
+        }
+      
+      
+        
+        
+      }

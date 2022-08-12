@@ -1,0 +1,85 @@
+.updateProfile {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.updateProfileForm {
+  background-color: white;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 8px 3px rgb(134, 133, 133);
+}
+
+.updateProfileInputs {
+  box-sizing: border-box;
+  padding: 1vmax 2vmax;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 2vmax;
+  font: 100 1.2rem "Roboto", sans-serif;
+  outline: none;
+}
+
+.updateProfileForm > input[type="file"] {
+  border-radius: 10px;
+  margin: 2vmax;
+}
+
+.updateProfileForm > input[type="file"]::-webkit-file-upload-button {
+  background-color: rgb(38, 63, 173);
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border-radius: 30px;
+  border: none;
+  font: 100 1.2rem "Roboto", sans-serif;
+  cursor: pointer;
+}
+.UpdateBtn{
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  height: 4vmax;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: rgb(36, 94, 218);
+  border: none;
+  margin: 25px 0;
+  transition: all 0.3s ease;
+}
+.UpdateBtn:hover{
+  background-color: rgb(12, 68, 151);
+}
+
+@media screen and (max-width: 600px) {
+  .updateProfileForm {
+    width: 100%;
+  }
+
+  .updateProfileForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    margin: 4vw;
+  }
+
+  .updateProfileForm > input[type="file"] {
+    width: 100%;
+  }
+
+  .updateProfileForm > input[type="file"]::-webkit-file-upload-button {
+    width: 70%;
+  }
+}

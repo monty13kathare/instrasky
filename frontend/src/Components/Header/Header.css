@@ -1,0 +1,22 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Dp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+a{
+    text-decoration: none;
+   cursor: pointer;
+}
+a .logo{
+    padding: 8px;
+    color: rgb(19, 120, 198);
+    border-radius: 50%;
+    background-color: #fff;
+    
+}

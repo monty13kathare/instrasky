@@ -1,0 +1,117 @@
+.register {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #71b7dc, #338bcf);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.registerForm {
+  background-color: white;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerInputs {
+  box-sizing: border-box;
+  padding: 1vmax 1.5vmax;
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 1.5vmax;
+  font: 100 1.2rem "Roboto", sans-serif;
+  outline: none;
+}
+
+.registerForm > input[type="file"] {
+  border-radius: 10px;
+  margin: 1vmax;
+}
+
+.registerForm > input[type="file"]::-webkit-file-upload-button {
+  background-color: rgb(27, 106, 197);
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border-radius: 30px;
+  border: none;
+  font: 100 1.2rem "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.registerForm .SLogin{
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgba(53, 51, 51, 0.991);
+  margin: 1vmax 1.5vmax;
+}
+.registerForm .SLogin a{
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: rgb(233, 236, 243);
+  background-color: rgb(36, 94, 218);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.SLogin a:hover{
+  background-color: rgb(12, 68, 151);
+  color: #fff;
+}
+.registerForm button{
+  width: 80%;
+  height: 4vmax;
+  padding: 8px 20px;
+  text-align: center;
+  background-color: rgb(36, 94, 218);
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0px;
+  border: none;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+.registerForm button:hover{
+  background-color: rgb(12, 68, 151);
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .registerForm {
+    width: 100%;
+  }
+
+  .registerForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    margin: 4vw;
+  }
+
+  .registerForm > input[type="file"] {
+    width: 100%;
+  }
+
+  .registerForm > input[type="file"]::-webkit-file-upload-button {
+    width: 70%;
+  }
+
+  .registerForm > a {
+    align-self: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.342);
+  }
+}

@@ -1,0 +1,88 @@
+.login {
+  height: 100vh;
+  background-image: linear-gradient(to right, #71b7dc, #338bcf);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.loginForm {
+  background-color: white;
+  height: auto;
+  width: 40%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm > input {
+  box-sizing: border-box;
+  padding: 1vmax 2vmax;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 2vmax;
+  font: 100 1.2rem "Roboto", sans-serif;
+  outline: none;
+}
+.loginForm > a {
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.342);
+  margin: 2vmax;
+}
+.LoginLink{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.LoginLink a{
+  text-decoration: none;
+  padding: 6px;
+  color: #338bcf;
+}
+.LoginLink .NewUserLink{
+  margin-left: 6vmax;
+}
+.LoginBtn{
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  height: 4vmax;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: rgb(36, 94, 218);
+  border: none;
+  margin: 25px 0;
+  transition: all 0.3s ease;
+}
+.LoginBtn:hover{
+  background-color: rgb(12, 68, 151);
+  color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+  .loginForm {
+    width: 100%;
+    height: auto;
+  }
+
+  .loginForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    margin: 4vw;
+  }
+
+  .loginForm > a {
+    align-self: center;
+  }
+}

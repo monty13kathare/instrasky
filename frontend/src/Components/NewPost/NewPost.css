@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container .wrapper .post {
+  height: auto;
+  
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ background-color: #fff;
+}
+.post{
+  width: 40%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 3px 3px 8px 3px rgb(134, 133, 133);
+}
+
+.post header{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding: 17px 0;
+  border-bottom: 1px solid #bfbfbf;
+}
+.post form{
+  margin: 20px 25px;
+}
+.post form :where(.content, .details .privacy),
+.audience .list li .column{
+  display: flex;
+  align-items: center;
+
+}
+.post form .content img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: 2px solid #0078FF;
+  
+}
+.post form .content .details{
+  margin: -3px 0 0 12px;
+}
+form .content .details p{
+  font-size: 17px;
+  font-weight: 500;
+}
+form .content .details .privacy{
+  min-width: 98px;
+  font-size: 11px;
+  margin-top: 3px;
+  background: #e4e6eb;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.details .privacy span{
+  font-size: 13px;
+  margin-top: 1px;
+  font-weight: 500;
+}
+.details .privacy i:last-child{
+  font-size: 13px;
+  margin-left: 1px;
+}
+.post form :where(textarea,button){
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.post form textarea{
+  resize: none;
+  margin-top: 20px;
+  min-height: 20px;
+  font-size: 18px;
+  position: relative;
+ 
+}
+
+
+
+.imageDiv > img {
+  margin-top: 5px;
+  width: 100%;
+  object-fit: cover;
+  
+  border-radius: 10px;
+}
+.post form :where(.theme-emoji, .options),
+.audience .list li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+form .theme-emoji .theme1{
+  cursor: pointer;
+}
+form .theme-emoji .theme1:last-child{
+  min-width: 24px;
+}
+form .options{
+  height: 57px;
+  border: 1px solid #b9b9b9;
+}
+form .options{
+  height: 57px;
+  border-radius: 7px;
+  padding: 0 15px;
+  margin: 15px 0;
+  border: 1px solid #b9b9b9;
+}
+form .options p{
+  color: #595959;
+  font-size: 15px;
+  font-weight: 500;
+}
+form .options :where(.list, li),
+.audience :where(.arrow-back, .icon, .radio){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .options .list li{
+  list-style: none;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: rgb(228, 225, 225);
+  margin-left: 8px;
+  position: relative;
+}
+form .options .list li input[type="file"]{
+transition: scale(2);
+position: absolute;
+opacity: 0;
+}
+
+
+form .options .list li .gallery{
+  color: rgb(16, 143, 47);
+  font-size: 20px;
+}
+form .options .list li .tagFrd{
+  color: rgb(16, 81, 202);
+  font-size: 20px;
+}
+form .options .list li .location{
+  color: rgb(206, 65, 22);
+  font-size: 20px;
+}
+form .options .list li .host{
+  color: rgb(191, 22, 206);
+  font-size: 20px;
+}
+form .options .list li:hover{
+  background: #c4c5c9;
+  cursor: pointer;
+}
+form button{
+  height: 53px;
+  color: #bcc0c4;
+  cursor: no-drop;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+form textarea:valid ~ button{
+  color: #fff;
+  cursor: pointer;
+  background: #0078FF;
+}
+
+form select{
+  cursor: pointer;
+}

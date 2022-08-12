@@ -1,0 +1,169 @@
+.User-Main-Container {
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, #d8d7d5, #92cbe6); */
+    background: #fff;
+    margin-top: 4.5%;
+   
+  }
+  
+  .UserPostContainer {
+    background: rgb(183, 183, 194);
+    width: 100%;
+    height: 100%;
+   
+  }
+  .UserPost{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+  }
+  .UserPost img{
+   width: 25rem;
+   height: auto;
+   gap: 2rem;
+   padding: 1rem;
+  }
+  
+  .PostUser{
+    width: 25vmax;
+    height: 30vmax;
+    /* background-color: rgb(58, 20, 228); */
+  }
+  .User-Info-container{
+    width: 100%;
+    padding: 1vmax;
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(79, 44, 134); */
+  }
+  
+  
+
+  /* User Profile */
+  
+  .profileDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmax;
+  }
+  .UserName{
+    display: flex;
+    align-items: center;
+    margin:  0 0.4vmax;
+  }
+  .UserName h1{
+    font-size: 1.5vmax;
+    font-weight: 400;
+  }
+  .verifyIcon{
+    margin-left: 0.3vmax;
+    font-size: 1.3vmax;
+    color: rgb(33, 113, 216);
+    align-items: center;
+  }
+  .userId{
+    font-size: 1.4vmax;
+    font-weight: 500;
+  }
+  
+  .about{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 1vmax; */
+  
+  }
+  .box{
+    text-align: center;
+  margin-top: 1vmax;
+  
+  }
+  .box h3{
+    font-size: 1.4vmax;
+    font-weight: 500;
+  }
+  .box span {
+    font-size: 1.3vmax;
+    font-weight: 500;
+    padding: 0vmax 0.8vmax;
+  }
+  .box span:hover{
+    color: rgb(39, 151, 202);
+  }
+  .box button{
+    padding: 0.4vmax;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+  }
+ .DialogBox-follower{
+  width: 100vh;
+  height: 60vh;
+  padding: 5vmax 1vmax;
+  background-color: rgb(95, 205, 219);
+  box-sizing: border-box;
+  overflow-y: auto;
+ }
+ .Title-follow-Div{
+  display: flex;
+ align-items: center; 
+ position: absolute;
+ overflow: hidden;
+ z-index: 999;
+ top: 0;
+ left: 0;
+color: #fff;
+ background-color: rgb(73, 70, 70);
+ width: 100%;
+ padding: 0.5vmax;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.h2{
+  color: rgb(30, 114, 216);
+}
+
+/* User profile ka css  Account css se access hua hai*/
+
+
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    .account {
+      grid-template-columns: 2fr 1fr;
+    }
+    .menu{
+      margin-left: 1vmax;
+    }
+  
+    .accountleft {
+      padding: 0;
+      min-height: 90vh;
+     
+    }
+  
+    .accountright  {
+      font: 100 1rem "Roboto";
+      margin-top: 6vw;
+    }
+    .UserPost{
+      /* background-color: rgb(196, 34, 34); */
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.3vmax;
+    }
+  }
+  

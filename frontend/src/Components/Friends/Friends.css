@@ -1,0 +1,131 @@
+.friends{
+    
+    min-height: 100vh;
+    width: 100%;
+  background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 15vmax;
+    height: 17vmax;
+    margin: 2vmax;
+    background: #fff;
+    border-radius: 0.5vmax;
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 8px 3px rgb(134, 133, 133);
+   
+}
+.UserCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.UserCard img{
+    width: 7vmax;
+    height: 7vmax;
+    border-radius: 50%;
+    margin: 0.5vmax 0;
+    border: 0.4vmax solid rgb(60, 157, 223);
+}
+.UserCardName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserCardName h3{
+    font-size: 1.4vmax;
+    font-weight: 500;
+    color: black;
+}
+.UserCardName span{
+    font-size: 1.2vmax;
+    font-weight: 400;
+    color: gray;
+}
+
+.btn1{
+    margin-top: 0.5rem;
+    background-color: rgb(30, 139, 212);
+    color: #fff;
+    padding: 0.3rem 1.6rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+   
+
+    .friends{
+        height: 100%;
+        width: 100%;
+        margin-top: 7.5%;
+     
+    }
+
+    .btn{
+        margin-top: 0.3vmax;
+        padding: 0.1vmax 0.2vmax;
+        font-size: 0.8vmax;
+    }
+
+    .card{
+        width: 40vmax;
+        height: 40vmax;
+        margin: 5vmax 6vmax;
+        border-radius: 1vmax;
+        padding: 4vmax;
+        box-sizing: border-box;
+    
+    }
+
+    .UserCard img{
+        width: 14vmax;
+        height: 14vmax;
+        border-radius: 50%;
+        margin: 0.5vmax 0;
+        border: 0.6vmax solid rgb(107, 159, 228);
+    }
+
+    .UserCardName h3{
+        font-size: 2.5vmax;
+        font-weight: 500;
+    }
+    .UserCardName span{
+        font-size: 2.4vmax;
+        font-weight: 400;
+        margin-top: -0.8vmax;
+        margin-bottom: 2vmax;
+    }
+
+    .btn{
+        margin-top: 3vmax;
+        background-color: rgb(30, 139, 212);
+        color: #fff;
+        padding: 1.5vmax 2vmax;
+        font-size: 2.5vmax;
+    }
+   
+  }

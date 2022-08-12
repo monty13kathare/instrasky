@@ -1,0 +1,33 @@
+
+.commentUser {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(203, 208, 216, 0.929);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.commentUser > a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  align-self: flex-start;
+}
+.commentUser img {
+  height: 3vmax;
+  width: 3vmax;
+  margin: 0.5vmax;
+  border-radius: 50%;
+  border: 2px solid rgb(24, 109, 194);
+  box-sizing: border-box;
+}
+
+
+
+.commentUser > button {
+  color: red;
+  padding: none;
+}
